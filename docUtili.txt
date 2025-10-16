@@ -1,0 +1,56 @@
+verificare che Docker sia partito
+docker info
+
+creare il container Docker
+docker compose up
+
+URL localhost da aprire sul Browser 
+http://localhost:8080
+
+Fare login con:
+Username: admin
+Password: admin
+
+Create client - in alto a sinistra creare il clien 
+Client ID: python-client
+
+Creare l'utente internamente a keycloak
+utente Studente 
+password: 1234
+
+aprire Visual Code e aprire la cartella .py
+Installa la libreria lanciando questi comandi
+python3 -m venv venv
+source venv/bin/activate
+pip install python-keycloak
+
+
+
+************************************************************
+Avviare il sistema
+aprire Docker e premere play 
+verificare se apre l'ambiente http://localhost:8080
+
+Aprire la cartella del progetto tramite 
+Visual studio facendo:
+code ./
+
+Aprire 4 terminali diversi: 
+Lanciare su ogni terminale comando: 
+source venv/bin/activate
+
+Sul 1° terminale lanciare:
+python3 client.py
+
+Sul 2° terminale lanciare:
+python3 api_libera.py
+
+Sul 3° terminale lanciare 
+python3 api.py
+
+Sul 4° terminale lanciare 
+python3 call_api.py
+
+in modo da fare la chiamata 
+************************************************************
+
