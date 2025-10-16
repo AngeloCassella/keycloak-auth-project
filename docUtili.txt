@@ -28,7 +28,7 @@ pip install python-keycloak
 
 ************************************************************
 Avviare il sistema
-aprire Docker e premere play 
+aprire Docker e premere play o lanciare il comando docker-compose up
 verificare se apre l'ambiente http://localhost:8080
 
 Aprire la cartella del progetto tramite 
